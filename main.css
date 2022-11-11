@@ -1,0 +1,276 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+.body
+{background: black}
+
+.inline-Block
+{width: 100%;
+height: 880px;
+background: rgb(255, 255, 255);
+opacity: 1;
+position: absolute;
+top: 0px;
+left: 0px;
+overflow: hidden;}
+
+h1 {color:white}
+
+
+
+
+
+.Heroimg
+{width: 602px;
+  height: 796px;
+  background: url("/images/Headshot.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 84px;
+  left: 613px;
+  box-shadow: 40px 40px 80px rgba(0, 0, 0, 0.1968410313129425);
+  overflow: hidden;}
+
+
+
+.titletext
+
+
+
+.Maintext
+{width: 452px;
+color: rgba(255,255,255,1);
+position: absolute;
+top: 266px;
+left: 135px;
+font-family: Paytone One;
+font-weight: Regular;
+font-size: 96px;
+opacity: 1;
+text-align: left;
+}
+
+.subtitle
+{width: 452px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 266px;
+  left: 135px;
+  font-family: Paytone One;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+  }
+
+.bodytext
+    {position: absolute;
+     color: white 
+     width: 566.64px;
+      height: 317px;
+      left: 135px;
+      top: 1172px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 35.6625px;
+      line-height: 63px;
+    }
+
+
+
+
+
+
+
+  .Maintext2 {position: absolute;
+    width: 386px;
+    height: 128px;
+    left: 119px;
+    top: 880px;
+    
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    /* or 114% */
+    
+    
+    color: #FFFFFF;}
+
+   .bodytext2 {position: absolute;
+      width: 1200px;
+      height: 118px;
+      left: 119px;
+      top: 1000px;
+      
+      font-family: 'Paytone One';
+      font-style: light;
+      font-weight: 300;
+      font-size: 26px;
+      line-height: 50px;
+      /* or 114% */
+      
+      
+      color: #FFFFFF;}
+
+
+
+  .MHlogo
+  {width: 68px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 16px;
+  left: 135px;
+  font-family: Paytone One;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;}
+
+  .navlisttop
+  {position: fixed;
+    width: 527px;
+    height: 32px;
+    left: 457px;
+    top: 0px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    }
+
+    .Bodytext
+    {position: absolute;
+     color: white 
+     width: 566.64px;
+      height: 317px;
+      left: 135px;
+      top: 1172px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 35.6625px;
+      line-height: 63px;
+    }
+
+  .Resumebutton
+  {position: absolute;
+    width: 170px;
+    height: 48px;
+    left: 335px;
+    top: 592px;
+    }
+
+    
+
+    * {
+      font-family: Roboto;
+    }
+    
+    .Aboutme {absolute;
+    width: 1408px;
+    height: 864px;
+    left: 16px;
+    top: 888px;}
+
+
+  
+    
+    .footer-distributed {
+      background-color: #292c2f;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+      font: normal 16px sans-serif;
+      padding: 45px 50px;
+      position: fixed; bottom: 0; left: 0; right: 0;
+    }
+    
+    .footer-distributed .footer-left p {
+      color: #8f9296;
+      font-size: 14px;
+      margin: 0;
+    }
+    /* Footer links */
+    
+    .footer-distributed p.footer-links {
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffffff;
+      margin: 0 0 10px;
+      padding: 0;
+      transition: ease .25s;
+    }
+    
+    .footer-distributed p.footer-links a {
+      display: inline-block;
+      line-height: 1.8;
+      text-decoration: none;
+      color: inherit;
+      transition: ease .25s;
+    }
+    
+    .footer-distributed .footer-links a:before {
+      content: "·";
+      font-size: 20px;
+      left: 0;
+      color: #fff;
+      display: inline-block;
+      padding-right: 5px;
+    }
+    
+    .footer-distributed .footer-links .link-1:before {
+      content: none;
+    }
+    
+    .footer-distributed .footer-right {
+      float: right;
+      margin-top: 6px;
+      max-width: 180px;
+    }
+    
+    .footer-distributed .footer-right a {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      background-color: #33383b;
+      border-radius: 2px;
+      font-size: 20px;
+      color: #ffffff;
+      text-align: center;
+      line-height: 35px;
+      margin-left: 3px;
+      transition:all .25s;
+    }
+    
+    .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+    
+    .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+    
+  
+    
+    @media (max-width: 600px) {
+      .footer-distributed .footer-left, .footer-distributed .footer-right {
+        text-align: center;
+      }
+      .footer-distributed .footer-right {
+        float: none;
+        margin: 0 auto 20px;
+      }
+      .footer-distributed .footer-left p.footer-links {
+        line-height: 1.8;
+      }
+    }
+
